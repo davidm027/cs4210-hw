@@ -1,5 +1,5 @@
 #-------------------------------------------------------------------------
-# AUTHOR: your name
+# AUTHOR: David Malone
 # FILENAME: naive_bayes.py
 # SPECIFICATION: Create an Naive Bayes algorithm to evaluate tennis playing conditions
 # FOR: CS 4210- Assignment #2
@@ -106,3 +106,4 @@ def print_results(rs):
             print(f"{day:5}  {outlook:8}  {temp:11}  {humidity:8}  {wind:6}  {i_class:<11} {confidence:<10.2%}")
 
 print_results(results)
+
